@@ -1,0 +1,29 @@
+.Card {
+    background-color: bisque;
+    margin:10px 10px;
+    padding:10px 20px; 
+    border: 2px solid black;
+    width: auto;
+    min-height: 100px;
+    border-radius: 10px;
+    color:tomato;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+}
+
+.btn{
+    color:white;
+    background-color: teal;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.btn2{
+    color:whitesmoke;
+    background-color: indianred;
+    border-radius: 5px;
+    margin: 5px 1px;;
+    display:inherit;
+    font-size: 15px;
+    font-weight: bolder;
+}

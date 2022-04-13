@@ -4,31 +4,91 @@ import './App.css';
 const App = () => {
   const propsToChildren = "props sending to children";
   const data = [
-    {name:'varma',amount:20,date:'2020-09-12'},
-    {name:'sneha',amount:2000,date:'2020-09-12'},
-    {name:'sweety',amount:200,date:'2020-09-12'}
+    {name:'Event1', price:20,   date:'2020-09-12'},
+    {name:'Event2', price:2000, date:'2020-09-12'},
+    {name:'Event3', price:200,  date:'2020-09-12'}
+
   ];
   return (
     <div className="App">
 
-      <h1>This is Main App component</h1>
+        <div className="Header">
+          <h1>React application demo for booking system</h1>
+        </div>
 
-        <hr/>
-          <ExpenseItem 
-          name={data[0].name}
-          amount ={data[0].amount}
-          date={data[0].date} />
-        <hr/>
-        <ExpenseItem 
-          name={data[1].name}
-          amount ={data[1].amount}
-          date={data[1].date} />
-        <hr/>
-        <ExpenseItem 
-          name={data[2].name}
-          amount ={data[2].amount}
-          date={data[2].date} />
+        
 
+      <div className="container">
+
+          <div className="sidebar">
+              <h1>Sidebar</h1>
+            </div>
+
+            <div className="side-container">
+
+                  <div className="aside">
+
+
+                      <ExpenseItem 
+                        name={data[0].name}
+                        price ={data[0].price}
+                        date={data[0].date} />
+
+                      <ExpenseItem 
+                        name={data[1].name}
+                        price ={data[1].price}
+                        date={data[1].date} />
+
+                      <ExpenseItem 
+                        name={data[2].name}
+                        price ={data[2].price}
+                        date={data[2].date} />
+
+                      <ExpenseItem 
+                        name={data[2].name}
+                        price ={data[2].price}
+                        date={data[2].date} />
+
+                      <ExpenseItem 
+                        name={data[2].name}
+                        price ={data[2].price}
+                        date={data[2].date} />
+
+                        
+
+                    
+                  </div>
+
+                  <div className="aside">
+
+
+                      <ExpenseItem 
+                        name={data[0].name}
+                        price ={data[0].price}
+                        date={data[0].date} />
+
+                      <ExpenseItem 
+                        name={data[1].name}
+                        price ={data[1].price}
+                        date={data[1].date} />
+
+                      <ExpenseItem 
+                        name={data[2].name}
+                        price ={data[2].price}
+                        date={data[2].date} />
+
+                    
+                  </div>
+
+            </div>
+        
+
+      </div>
+
+      
+        <div className="Footer">
+          <h1>Footer section</h1>
+        </div>
     </div>
   );
 }
