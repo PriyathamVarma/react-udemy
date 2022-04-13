@@ -1,10 +1,10 @@
 
-// ExpenseItem component
-
-import './ExpenseItem.css';
+// Events component
+import './Events.css';
 import { useState } from 'react';
+import {ethers} from 'ethers';
 
-const ExpenseItem = (props) => {
+const Events = (props) => {
     const dummyData = 'Location not decided';
 
     const selected = false;
@@ -52,4 +52,4 @@ const ExpenseItem = (props) => {
   );
 }
 
-export default ExpenseItem;
+export default Events;

@@ -1,5 +1,6 @@
-import ExpenseItem from './components/ExpenseItem';
+import Events from './components/Events';
 import './App.css';
+import {ethers} from 'ethers';
 
 const App = () => {
   const propsToChildren = "props sending to children";
@@ -32,30 +33,32 @@ const App = () => {
                       <h1>Events</h1>
 
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[0].name}
                         price ={data[0].price}
                         date={data[0].date} />
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[1].name}
                         price ={data[1].price}
                         date={data[1].date} />
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[2].name}
                         price ={data[2].price}
                         date={data[2].date} />
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[2].name}
                         price ={data[2].price}
                         date={data[2].date} />
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[2].name}
                         price ={data[2].price}
                         date={data[2].date} />
+
+
                     
                   </div>{/* Events components */}
 
@@ -64,17 +67,17 @@ const App = () => {
 
                   <h1>Meetings</h1>
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[0].name}
                         price ={data[0].price}
                         date={data[0].date} />
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[1].name}
                         price ={data[1].price}
                         date={data[1].date} />
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[2].name}
                         price ={data[2].price}
                         date={data[2].date} />
@@ -87,17 +90,17 @@ const App = () => {
 
                   <h1>Classes</h1>
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[0].name}
                         price ={data[0].price}
                         date={data[0].date} />
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[1].name}
                         price ={data[1].price}
                         date={data[1].date} />
 
-                      <ExpenseItem 
+                      <Events 
                         name={data[2].name}
                         price ={data[2].price}
                         date={data[2].date} />
