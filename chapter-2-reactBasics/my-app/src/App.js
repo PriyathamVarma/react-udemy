@@ -26,7 +26,10 @@ const App = () => {
 
             <div className="side-container">
 
+                  {/* Events components */}
                   <div className="aside">
+
+                      <h1>Events</h1>
 
 
                       <ExpenseItem 
@@ -53,14 +56,13 @@ const App = () => {
                         name={data[2].name}
                         price ={data[2].price}
                         date={data[2].date} />
-
-                        
-
                     
-                  </div>
+                  </div>{/* Events components */}
 
+                  {/* Meetings components */}
                   <div className="aside">
 
+                  <h1>Meetings</h1>
 
                       <ExpenseItem 
                         name={data[0].name}
@@ -78,7 +80,30 @@ const App = () => {
                         date={data[2].date} />
 
                     
-                  </div>
+                  </div>{/* Meetings components Ends*/}
+
+                  {/* Classses components */}
+                  <div className="aside">
+
+                  <h1>Classes</h1>
+
+                      <ExpenseItem 
+                        name={data[0].name}
+                        price ={data[0].price}
+                        date={data[0].date} />
+
+                      <ExpenseItem 
+                        name={data[1].name}
+                        price ={data[1].price}
+                        date={data[1].date} />
+
+                      <ExpenseItem 
+                        name={data[2].name}
+                        price ={data[2].price}
+                        date={data[2].date} />
+
+                    
+                  </div>{/* classes components ends */}
 
             </div>
         

@@ -36,12 +36,16 @@
   height: 100vh;
   margin:0;
   flex-basis: 20%;
+  background-color:darksalmon;
 
 }
 
 .aside{
- align-self: flex-start;
+
  text-align: left;
+ justify-content: space-evenly;
+ margin-left:20px;
+
 }
 
 

@@ -1,14 +1,45 @@
+@keyframes example {
+    0%   {background-image: radial-gradient(#FFD8AB,#FFD8AB,#FFE4C4);}
+    25%  {background-image: radial-gradient(#FFE4C4,#FFE4C4,#FFF0DE);}
+    50%  {background-image: radial-gradient(#FFF0DE,#FFF0DE,#FFFBF7);}
+    100% {background-image: radial-gradient(#FFFBF7,#FFFBF7,white);}
+  }
+
+
 .Card {
-    background-color: bisque;
+    /*background-color: bisque;*/
     margin:10px 10px;
-    padding:10px 20px; 
-    border: 2px solid black;
+    padding:10px 20px;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: auto;
-    min-height: 100px;
+    min-height: 300px;
+    max-height: 300px;
     border-radius: 10px;
     color:tomato;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: inline-block;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+.Card2 {
+    /*background-color: bisque;*/
+    background-color:bisque;
+    margin:10px 10px;
+    padding:10px 20px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: auto;
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+    color:tomato;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    border: 1px solid black;
 }
 
 .btn{
@@ -27,3 +58,4 @@
     font-size: 15px;
     font-weight: bolder;
 }
+
