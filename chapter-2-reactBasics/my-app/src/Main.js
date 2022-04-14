@@ -30,7 +30,7 @@ const Main = () => {
 
 <div className="Header">
   <h1>React application demo for booking system</h1>
-  <button onClick={navBarBtnclicked} className='navBarBtn'>Navbar</button>
+  <button onClick={navBarBtnclicked} className='navBarBtn'>{String.fromCodePoint(parseInt(2192,16))}</button>
 </div>
 
 
