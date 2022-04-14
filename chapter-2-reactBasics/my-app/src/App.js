@@ -3,9 +3,9 @@ import {
   Routes
 } from "react-router-dom";
 import Main from './Main';
-import AllEvents from './pages/AllEvents';
-import AttendedEvents from './pages/AttendedEvents';
-import FavoriteEvents from './pages/FavoriteEvents';
+import AllEvents from './pages/Events/AllEvents';
+import AttendedEvents from './pages/Events/AttendedEvents';
+import FavoriteEvents from './pages/Events/FavoriteEvents';
 
 const App = () => {
   return (

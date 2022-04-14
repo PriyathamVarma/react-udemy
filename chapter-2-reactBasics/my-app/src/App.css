@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  margin:0px;
+  margin:0;
+  height: 100vh;
+  display:flex; 
+  flex-direction:column; 
 }
 
 .Header{
@@ -15,11 +18,13 @@
   background-color:palevioletred;
   padding: 5px 10px;
   width:auto;
+  margin-top: auto;
 }
 
 .container{
   display:flex;
   flex-direction:row;
+  flex-wrap: wrap;
 }
 
 .side-container{
@@ -100,14 +105,7 @@ li{
   display: block;
 }
 
-.single-event{
-  border: 1px solid black;
-  padding: 5px 10px;
-  margin: 5px 10px;
-  background-color: cornsilk;
-  font-weight: bolder;
-  border-radius: 5px;
-}
+
 
 
 

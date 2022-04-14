@@ -1,3 +1,5 @@
+import './EventsPage.css';
+
 const SingleEvent = ({name, price, date}) => {
     return (
         <div className="single-event">
